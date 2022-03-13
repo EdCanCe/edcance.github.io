@@ -1,0 +1,13 @@
+Form
+Input
+Select
+Option
+textarea
+samp
+kbd
+
+span
+
+abbr
+
+Summary / Para los personajes

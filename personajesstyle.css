@@ -1,0 +1,95 @@
+.agrupar{
+    padding: 1%;
+    font-family: 'Varela Round', sans-serif;
+    display: block;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding-left: 2%;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.4);
+    margin-left: 3%;
+    margin-right:auto;
+    margin-bottom: 1.8%;
+    margin-top: 1%;
+    font-size: 26px;
+    border-radius: 1vw;
+    width: fit-content;
+}
+
+#contagrupar{
+    margin-bottom: 10px;
+}
+
+.agrupado{
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 6%;
+    margin-right: 3%;
+}
+
+.mano{
+    display: block;
+    position: relative;
+    border-radius: 1vw;
+}
+
+.agrupar:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #0A0A0A;
+    position: absolute;
+    top: 38%;
+    left: 1vw;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+}
+
+details[open] > .agrupar:before {
+    transform: rotate(90deg);
+    font-size: 23px;
+}
+
+
+details .agrupar::-webkit-details-marker {
+    display:none;
+}
+
+.infop{
+    min-height: 600px;
+    margin-top: 0px;
+}
+
+.infop h1{
+    font-size: 28px;
+    padding-left: 2%;
+	padding-right: 2%; 
+    margin-top: 0px;
+}
+
+.infop img{
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    height: 500px;
+    object-fit: contain;
+    max-height: 30vw;
+    float: left;
+    background-color: rgba(240, 240, 240, 0.7);
+    box-shadow: 0px 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.4);
+    //border: 5px solid #0A0A0A;
+    border-radius: 1vw;
+    align-content: center;
+    display: block;
+}
+
+#InfoRudeus h1{
+    color: #fff;
+    text-shadow: 0 0 5px #F8B600, 0 0 5px #F8B600, 0 0 5px #F8B600, 0 0 7px #F8B600;
+}
+
+#Rudy1{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
