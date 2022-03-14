@@ -1,6 +1,6 @@
 .infop{
     min-height: 600px;
-    margin-top: 0px;
+    margin-top: 1%;
 }
 
 .infop h1{
@@ -22,7 +22,9 @@
     box-shadow: 0px 0px 0.5vw 0.5vw rgba(0, 0, 0, 0.4);
     //border: 5px solid #0A0A0A;
     border-radius: 1vw;
-    align-content: center;
+    //align-content: center;
+    padding-left: auto;
+    padding-right: auto;
     display: block;
 }
 
