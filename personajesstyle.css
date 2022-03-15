@@ -1,6 +1,7 @@
 .infop{
     min-height: 600px;
     margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 .infop h1{
@@ -36,4 +37,8 @@
 #Rudy1{
     padding-bottom: 1%;
     padding-top: 1%;
+}
+
+#Rudy2{
+    float: right;
 }
