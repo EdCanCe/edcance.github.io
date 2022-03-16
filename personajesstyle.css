@@ -43,6 +43,11 @@
     text-shadow: 0 0 5px #79FF00, 0 0 5px #79FF00, 0 0 5px #79FF00, 0 0 7px #79FF00;
 }
 
+#InfoEris h1{
+    color: #fff;
+    text-shadow: 0 0 5px #FF000E, 0 0 5px #FF000E, 0 0 5px #FF000E, 0 0 7px #FF000E;
+}
+
 #Rudy1{
     padding-bottom: 1%;
     padding-top: 1%;
@@ -54,6 +59,10 @@
 
 #Sylphy2{
     height: 400px;
+}
+
+#ResaltarSylphy{
+    text-shadow: 0 0 3px #79FF00, 0 0 3px #79FF00, 0 0 3px #79FF00, 0 0 5px #79FF00;
 }
 
 @media(orientation: portrait){
