@@ -4,6 +4,10 @@
     margin-bottom: 2%;
 }
 
+.inf{
+    overflow:auto;
+}
+
 .infop h1{
     font-size: 28px;
     padding-left: 2%;
@@ -15,6 +19,7 @@
     margin-left: 5%;
     margin-right: 2%;
     margin-bottom: 1%;
+    margin-top: 1%;
     height: 500px;
     object-fit: contain;
     max-height: 30vw;
@@ -32,6 +37,11 @@
 #InfoRudeus h1{
     color: #fff;
     text-shadow: 0 0 5px #F8B600, 0 0 5px #F8B600, 0 0 5px #F8B600, 0 0 7px #F8B600;
+}
+
+#InfoSylphy h1{
+    color: #fff;
+    text-shadow: 0 0 5px #79FF00, 0 0 5px #79FF00, 0 0 5px #79FF00, 0 0 7px #79FF00;
 }
 
 #Rudy1{
