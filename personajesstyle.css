@@ -8,7 +8,7 @@
 }
 
 .infop h1{
-    font-size: 21px;
+    font-size: 33px;
     padding-left: 2%;
 	padding-right: 2%; 
     margin-top: 0px;
@@ -48,8 +48,12 @@
     padding-top: 1%;
 }
 
-#Rudy2{
+.infop .imgder{
     float: right;
+}
+
+#Sylphy2{
+    height: 400px;
 }
 
 @media(orientation: portrait){
@@ -64,5 +68,11 @@
     }
     #Rudy2{
         float: none;
+    }
+    #Sylphy2{
+        float:none;
+    }
+    .infop h1{
+        font-size: 21px;
     }
 }
