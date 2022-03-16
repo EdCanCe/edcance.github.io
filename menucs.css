@@ -39,7 +39,7 @@ body{
     align-items: center;
 }
 
-@media (min-width: 6in){
+@media (orientation: landscape){
     
     #logolink {
         background-image: url("imgs/logo.png");
@@ -95,7 +95,7 @@ body{
     }
 }
 
-@media (max-width: 6in){
+@media (orientation: portrait){
     
     .supermenu{
         padding-left: 0%;
