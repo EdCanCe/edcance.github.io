@@ -8,7 +8,7 @@
 }
 
 .infop h1{
-    font-size: 33px;
+    font-size: 1.6rem;
     padding-left: 2%;
 	padding-right: 2%; 
     margin-top: 0px;
@@ -82,6 +82,6 @@
         float:none;
     }
     .infop h1{
-        font-size: 21px;
+        font-size: 1rem;
     }
 }
