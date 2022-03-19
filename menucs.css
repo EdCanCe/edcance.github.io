@@ -11,6 +11,12 @@
 html{
     scroll-behavior: smooth;
     font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+}
+
+*::selection{
+    color: #fff;
+    background-color: rgba(248, 124, 0, 0.6);
 }
 
 body{
@@ -298,10 +304,10 @@ body{
         font-size: 0.8em;
     }
     .btnin{
-        font-size: 1.3vw;
+        font-size: 1.5vw;
     }
     .btnin:hover{
-        font-size: 1.8vw;
+        font-size: 1.6vw;
     }
 }
 
