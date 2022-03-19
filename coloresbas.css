@@ -1,0 +1,88 @@
+body{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+div{
+    width: 18.8vw;
+    border: 1px dashed black;
+    text-align: center;
+    display: block;
+}
+
+#examplecolorb, #examplecolorg, #examplecolorl{
+    margin-left:18.8vw;
+}
+
+#examplecolorc, #examplecolorh, #examplecolorm{
+    margin-left:37.6vw;
+}
+
+#examplecolord, #examplecolori, #examplecolorn{
+    margin-left: 56.4vw;
+}
+
+#examplecolore, #examplecolorj, #examplecoloro{
+    margin-left: 75.2vw;
+}
+
+#examplecolora{
+    background-color: pink;
+}
+
+#examplecolorb{
+    background-color: lawngreen;
+}
+
+#examplecolorc{
+    background-color: lightyellow;
+    
+}
+
+#examplecolord{
+    background-color: orange;
+}
+
+#examplecolore{
+    background-color: skyblue;
+}
+
+#examplecolorf{
+    background-color: rgb(0,0,255);
+}
+
+#examplecolorg{
+    background-color: rgb(255,0,255);
+}
+
+#examplecolorh{
+    background-color: rgb(255,0,0);
+}
+
+#examplecolori{
+    background-color: rgb(0,255,255);
+}
+
+#examplecolorj{
+    background-color: rgb(255,255,0);
+}
+
+#examplecolork{
+    background-color: #818181;
+}
+
+#examplecolorl{
+    background-color: #9a9a9a;
+}
+
+#examplecolorm{
+    background-color: #afafaf;
+}
+
+#examplecolorn{
+    background-color: #c4c4c4;
+}
+
+#examplecoloro{
+    background-color: #d9d9d9;
+}
