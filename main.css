@@ -120,40 +120,55 @@ header{
     .cuerpo p{
         font-size: 4vw;
     }
+    .cuerpo{
+        margin: 0;
+        border-radius: 0 !important;
+        box-shadow: 0px 0px 1.4em 1.5em white;
+    }
     #haux{
-        width: 96%;
+        width: 0;
+        height: 0;
+        margin: 0;
     }
     #menu{
-        width: 96%;
+        width: 100%;
+        position: fixed;
+        margin: 0;
+        padding: 0px;
     }
     #menu a{
+        display: inline-block;
         font-size: 5vw;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
     #tit p{
         text-align: center;
-        background-color: rgba(238, 238, 238, 0.1);
         color:var(--cl);
         margin: 0;
-        backdrop-filter: blur(3px);
     }
     #tit{
-        width:87%;
-    }
-    #hola{
+        width:80%;
+        background-color: rgba(238, 238, 238, 0.1);
+        backdrop-filter: blur(3px);
+        margin-left: auto;
+        margin-right: auto;
         border-top-right-radius: 6vw;
         border-top-left-radius: 0;
-    }
-    #dev{
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 6vw;
-        padding-bottom: 0.5em
+        margin-bottom: 10%;
+    }
+    #hola{
+        line-height: 0.7;
+        padding-bottom: 1rem;
     }
     #pfp{
         float: none;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 15%;; 
+        margin-top: 23%;; 
         width: 70%;
         height: 70%;
     }
