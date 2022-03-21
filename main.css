@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+
+:root{
+    --cp: rgb(246, 201, 14);
+    --cl: rgb(238, 238, 238);
+    --oc: rgb(58, 71, 80);
+    --oo: rgb(48, 56, 65);
+}
+
+html{
+    font-size: 186%;
+    transition: 0.5s;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: var(--oc);
+    background-image: url("imgs/bg.png");
+}
+
+header{
+    background-color: var(--cp);
+    width: 99%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 25px 20px 5px rgba(0,0,0,0.5);
+    position:sticky;
+    top: 0;
+}
+
+#haux{
+    background-color: var(--cp);
+    width: 99%;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cuerpo{
+    color:black;
+    margin: 70px;
+    padding: 70px 100px;
+    transition: 0.5s;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+#tit{
+    font-size: 3rem;
+    padding: 30px;
+    margin-top: 600px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#tit p{
+    color: var(--cl);
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 6%;
+}
+
+#pfp{
+    height: 15rem;
+    float: right;
+    border-radius: 10px;
+    margin-right: 6%;
+    margin-top: 1.5%;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.9);
+}
+
+#hola{
+    font-size: 2em;
+}
+
+@media (max-width: 1850px){
+    html{
+        font-size: 150%;
+    }
+    #pfp{
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 1510px){
+    html{
+        font-size: 130%;
+    }
+    
+}
+
+@media (max-width: 1310px){
+    html{
+        font-size: 100%;
+    }
+    #pfp{
+        margin-top: 2.5%;
+    }
+}
+
+@media (max-width: 1020px){
+    html{
+        font-size: 2.3vw;
+    }
+    .cuerpo p{
+        font-size: 4vw;
+    }
+    #haux{
+        width: 96%;
+    }
+    #menu{
+        width: 96%;
+    }
+    #menu a{
+        font-size: 5vw;
+    }
+    #tit p{
+        text-align: center;
+        background-color: rgba(238, 238, 238, 0.1);
+        color:var(--cl);
+        margin: 0;
+        backdrop-filter: blur(3px);
+    }
+    #tit{
+        width:87%;
+    }
+    #hola{
+        border-top-right-radius: 6vw;
+        border-top-left-radius: 0;
+    }
+    #dev{
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 6vw;
+        padding-bottom: 0.5em
+    }
+    #pfp{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 70%;
+    }
+    .cuerpo{
+        border-radius: 6vw;
+        padding: 1vw 6vw;
+    }
+}
