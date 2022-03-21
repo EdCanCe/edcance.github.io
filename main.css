@@ -18,6 +18,7 @@ body{
     margin: 0px;
     background-color: var(--oc);
     background-image: url("imgs/bg.png");
+    background-position: center;
 }
 
 header{
