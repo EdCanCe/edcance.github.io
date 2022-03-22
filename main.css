@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 :root{
     --cp: rgb(246, 201, 14);
@@ -30,21 +31,48 @@ header{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 25px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     box-shadow: 0px 25px 20px 5px rgba(0,0,0,0.5);
     position:sticky;
     top: 0;
+    height: 2rem;
 }
 
-#haux{
-    background-color: var(--cp);
-    width: 99%;
-    height: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+header *{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Secular One', sans-serif;
+    transition: 0.2s;
+    margin-top: 0.1rem;
+}
+
+header *:hover{
+    color: var(--cl);
+    text-shadow: 0px 0px 1rem black;
+}
+
+header *:active{
+    transition: 0s;
+    color: var(--cp);
+    text-shadow: 0px 0px 2rem black, 0px 0px 1rem black, 0px 0px 0.5rem black;
+}
+
+header .normal{
+    float: right;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header #end{
+    padding-right: 5rem;
+}
+
+header #start{
+    float: left;
+    display: inline-block;
+    padding-left: 5rem;
+    padding-right: 1rem;
 }
 
 .cuerpo{
@@ -96,13 +124,18 @@ header{
     #pfp{
         margin-top: 2%;
     }
+    header *{
+        margin-top: 0.15em;
+    }
 }
 
 @media (max-width: 1510px){
     html{
         font-size: 130%;
     }
-    
+    header *{
+        margin-top: 0.2em;
+    }
 }
 
 @media (max-width: 1310px){
@@ -112,9 +145,15 @@ header{
     #pfp{
         margin-top: 2.5%;
     }
+    header *{
+        margin-top: 0.25em;
+    }
 }
 
 @media (max-width: 1020px){
+    *{
+        transition: 0s;
+    }
     html{
         font-size: 2.3vw;
     }
@@ -125,11 +164,6 @@ header{
         margin: 0;
         border-radius: 0 !important;
         box-shadow: 0px 0px 1.4em 1.5em white;
-    }
-    #haux{
-        width: 0;
-        height: 0;
-        margin: 0;
     }
     #menu{
         width: 100%;
@@ -169,12 +203,24 @@ header{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 23%;; 
+        margin-top: 20%;; 
         width: 70%;
         height: 70%;
     }
     .cuerpo{
         border-radius: 6vw;
         padding: 1vw 6vw;
+    }
+    #menu{
+        height: 3.5rem !important;
+    }
+    #menu *{
+        font-size: 1.3rem !important;
+    }
+    header #end{
+        padding-right: 2rem;
+    }
+    header #start{
+        padding-left: 2rem;
     }
 }
