@@ -41,6 +41,7 @@ body{
 }
 
 header{
+    z-index: 5;
     background-color: var(--cp);
     width: calc(100% - 10px);
     padding-top: 10px;
@@ -94,6 +95,18 @@ header #start{
 
 .cuerpo p{
     font-weight: 300;
+}
+
+.cuerpo a{
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cl);
+    text-shadow: 0px 0px 5px var(--cp), 0px 0px 3px var(--cp), 0px 0px 2px var(--cp), 0px 0px 5px var(--cp);
+    transition: 0.3s;
+}
+
+.cuerpo a:hover{
+    color: var(--co);
 }
 
 .cuerpo{
